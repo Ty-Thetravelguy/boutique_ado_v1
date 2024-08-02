@@ -11,6 +11,8 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
+import env
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'boutique_ado.settings')
 
 application = get_wsgi_application()
